@@ -20,13 +20,13 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl IMAP::Admin
 Summary(zh_CN):	IMAP::Admin Perl Ä£¿é
 Name:		perl-IMAP-Admin
 Version:	1.6.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-paths.patch
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -45,7 +45,8 @@ ustawiania ró¿nych parametrów takich jak quota czy prawa dostêpu.
 %patch -p1
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -59,5 +60,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes examples/*
-%{perl_sitelib}/IMAP
+%{perl_vendorlib}/IMAP
 %{_mandir}/man3/*
