@@ -45,7 +45,7 @@ ustawiania ró¿nych parametrów takich jak quota czy prawa dostêpu.
 %patch -p1
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
