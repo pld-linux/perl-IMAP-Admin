@@ -2,13 +2,14 @@
 Summary:	IMAP-Admin perl module
 Summary(pl):	Modu³ perla IMAP-Admin
 Name:		perl-IMAP-Admin
-Version:	1.0.1
+Version:	1.3.0
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
+Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/IMAP/IMAP-Admin-%{version}.tar.gz
-Patch0:		perl-IMAP-Admin-paths.patch
+Patch0:		%{name}-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -40,7 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/IMAP/Admin
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
@@ -54,7 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes.gz examples/*
 
 %{perl_sitelib}/IMAP/Admin.pm
-%{perl_sitelib}/auto/IMAP/Admin/autosplit.ix
-%{perl_sitearch}/auto/IMAP/Admin
+%{perl_sitearch}/auto/IMAP
 
 %{_mandir}/man3/*
