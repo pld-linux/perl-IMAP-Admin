@@ -10,7 +10,7 @@ Summary(fr):	Module Perl IMAP::Admin
 Summary(it):	Modulo di Perl IMAP::Admin
 Summary(ja):	IMAP::Admin Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	IMAP::Admin ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul IMAP::Admin
+Summary(nb):	Perlmodul IMAP::Admin
 Summary(pl):	Modu³ Perla IMAP::Admin
 Summary(pt):	Módulo de Perl IMAP::Admin
 Summary(pt_BR):	Módulo Perl IMAP::Admin
