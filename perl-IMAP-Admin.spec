@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	IMAP
 %define	pnam	Admin
-Summary:	IMAP-Admin perl module
-Summary(pl):	Modu³ perla IMAP-Admin
+Summary:	IMAP::Admin perl module
+Summary(pl):	Modu³ perla IMAP::Admin
 Name:		perl-IMAP-Admin
 Version:	1.6.0
 Release:	4
@@ -16,12 +16,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IMAP-Admin provides basic IMAP server adminstration. It provides
+IMAP::Admin provides basic IMAP server adminstration. It provides
 functions for creating and deleting mailboxes and setting various
 information such as quotas and access rights.
 
 %description -l pl
-IMAP-Admin umo¿liwia podstawowe administrowanie serwerem IMAP.
+IMAP::Admin umo¿liwia podstawowe administrowanie serwerem IMAP.
 Udostêpnia funkcje do tworzenia i usuwania skrzynek pocztowych oraz
 ustawiania ró¿nych parametrów takich jak quota czy prawa dostêpu.
 
