@@ -31,7 +31,7 @@ ustawiania ró¿nych parametrów takich jak quota czy prawa dostêpu.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
