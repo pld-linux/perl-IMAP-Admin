@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	IMAP
 %define	pnam	Admin
-%include	/usr/lib/rpm/macros.perl
 Summary:	IMAP-Admin perl module
 Summary(pl):	Modu³ perla IMAP-Admin
 Name:		perl-IMAP-Admin
 Version:	1.6.0
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -27,7 +26,7 @@ Udostêpnia funkcje do tworzenia i usuwania skrzynek pocztowych oraz
 ustawiania ró¿nych parametrów takich jak quota czy prawa dostêpu.
 
 %prep
-%setup -q -n IMAP-Admin-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p1
 
 %build
