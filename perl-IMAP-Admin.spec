@@ -4,8 +4,8 @@
 			# require IMAP server access
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	IMAP
-%define		pnam	Admin
+%define	pdir	IMAP
+%define	pnam	Admin
 Summary:	IMAP::Admin Perl module
 Summary(cs):	Modul IMAP::Admin pro Perl
 Summary(da):	Perlmodul IMAP::Admin
