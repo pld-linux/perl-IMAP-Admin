@@ -7,8 +7,8 @@ Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/IMAP/IMAP-Admin-%{version}.tar.gz
-Patch:		perl-IMAP-Admin-paths.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/IMAP/IMAP-Admin-%{version}.tar.gz
+Patch0:		perl-IMAP-Admin-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -16,14 +16,14 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IMAP-Admin provides basic IMAP server adminstration.  It provides functions 
-for creating and deleting mailboxes and setting various information such as
-quotas and access rights.
+IMAP-Admin provides basic IMAP server adminstration. It provides
+functions for creating and deleting mailboxes and setting various
+information such as quotas and access rights.
 
 %description -l pl
-IMAP-Admin umo¿liwia podstawowe administrowanie serwerem IMAP. Udostêpnia
-funkcje do tworzenia i usuwania skrzynek pocztowych oraz ustawiania ró¿nych
-parametrów takich jak quota czy prawa dostêpu.
+IMAP-Admin umo¿liwia podstawowe administrowanie serwerem IMAP.
+Udostêpnia funkcje do tworzenia i usuwania skrzynek pocztowych oraz
+ustawiania ró¿nych parametrów takich jak quota czy prawa dostêpu.
 
 %prep
 %setup -q -n IMAP-Admin-%{version}
