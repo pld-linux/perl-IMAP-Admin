@@ -47,7 +47,7 @@ ustawiania ró¿nych parametrów takich jak quota czy prawa dostêpu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
