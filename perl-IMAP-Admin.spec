@@ -1,3 +1,8 @@
+#
+# Conditional build:
+%bcond_with	tests	# perform "make test"
+			# require IMAP server access
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	IMAP
 %define		pnam	Admin
@@ -50,10 +55,13 @@ ustawiania ró¿nych parametrów takich jak quota czy prawa dostêpu.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
