@@ -2,9 +2,9 @@
 Summary:	IMAP-Admin perl module
 Summary(pl):	Modu³ perla IMAP-Admin
 Name:		perl-IMAP-Admin
-Version:	0.8.2
-Release:	3
-Copyright:	GPL
+Version:	1.0.1
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/IMAP/IMAP-Admin-%{version}.tar.gz
