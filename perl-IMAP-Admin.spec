@@ -21,7 +21,7 @@ Summary(zh_CN):	IMAP::Admin Perl Ä£¿é
 Name:		perl-IMAP-Admin
 Version:	1.6.1
 Release:	3
-License:	GPL
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8215f41efca2d96b5e2902b8e413a751
