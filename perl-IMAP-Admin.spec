@@ -7,22 +7,22 @@
 %define		pdir	IMAP
 %define		pnam	Admin
 Summary:	IMAP::Admin Perl module
-Summary(cs):	Modul IMAP::Admin pro Perl
-Summary(da):	Perlmodul IMAP::Admin
-Summary(de):	IMAP::Admin Perl Modul
-Summary(es):	MÛdulo de Perl IMAP::Admin
-Summary(fr):	Module Perl IMAP::Admin
-Summary(it):	Modulo di Perl IMAP::Admin
-Summary(ja):	IMAP::Admin Perl •‚•∏•Â°º•Î
-Summary(ko):	IMAP::Admin ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul IMAP::Admin
-Summary(pl):	Modu≥ Perla IMAP::Admin
-Summary(pt):	MÛdulo de Perl IMAP::Admin
-Summary(pt_BR):	MÛdulo Perl IMAP::Admin
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl IMAP::Admin
-Summary(sv):	IMAP::Admin Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl IMAP::Admin
-Summary(zh_CN):	IMAP::Admin Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul IMAP::Admin pro Perl
+Summary(da.UTF-8):   Perlmodul IMAP::Admin
+Summary(de.UTF-8):   IMAP::Admin Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl IMAP::Admin
+Summary(fr.UTF-8):   Module Perl IMAP::Admin
+Summary(it.UTF-8):   Modulo di Perl IMAP::Admin
+Summary(ja.UTF-8):   IMAP::Admin Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   IMAP::Admin ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul IMAP::Admin
+Summary(pl.UTF-8):   Modu≈Ç Perla IMAP::Admin
+Summary(pt.UTF-8):   M√≥dulo de Perl IMAP::Admin
+Summary(pt_BR.UTF-8):   M√≥dulo Perl IMAP::Admin
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl IMAP::Admin
+Summary(sv.UTF-8):   IMAP::Admin Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl IMAP::Admin
+Summary(zh_CN.UTF-8):   IMAP::Admin Perl Ê®°Âùó
 Name:		perl-IMAP-Admin
 Version:	1.6.1
 Release:	4
@@ -41,10 +41,10 @@ IMAP::Admin provides basic IMAP server adminstration. It provides
 functions for creating and deleting mailboxes and setting various
 information such as quotas and access rights.
 
-%description -l pl
-IMAP::Admin umoøliwia podstawowe administrowanie serwerem IMAP.
-UdostÍpnia funkcje do tworzenia i usuwania skrzynek pocztowych oraz
-ustawiania rÛønych parametrÛw takich jak quota czy prawa dostÍpu.
+%description -l pl.UTF-8
+IMAP::Admin umo≈ºliwia podstawowe administrowanie serwerem IMAP.
+Udostƒôpnia funkcje do tworzenia i usuwania skrzynek pocztowych oraz
+ustawiania r√≥≈ºnych parametr√≥w takich jak quota czy prawa dostƒôpu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
