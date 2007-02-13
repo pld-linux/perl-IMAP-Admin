@@ -7,22 +7,22 @@
 %define		pdir	IMAP
 %define		pnam	Admin
 Summary:	IMAP::Admin Perl module
-Summary(cs.UTF-8):   Modul IMAP::Admin pro Perl
-Summary(da.UTF-8):   Perlmodul IMAP::Admin
-Summary(de.UTF-8):   IMAP::Admin Perl Modul
-Summary(es.UTF-8):   Módulo de Perl IMAP::Admin
-Summary(fr.UTF-8):   Module Perl IMAP::Admin
-Summary(it.UTF-8):   Modulo di Perl IMAP::Admin
-Summary(ja.UTF-8):   IMAP::Admin Perl モジュール
-Summary(ko.UTF-8):   IMAP::Admin 펄 모줄
-Summary(nb.UTF-8):   Perlmodul IMAP::Admin
-Summary(pl.UTF-8):   Moduł Perla IMAP::Admin
-Summary(pt.UTF-8):   Módulo de Perl IMAP::Admin
-Summary(pt_BR.UTF-8):   Módulo Perl IMAP::Admin
-Summary(ru.UTF-8):   Модуль для Perl IMAP::Admin
-Summary(sv.UTF-8):   IMAP::Admin Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl IMAP::Admin
-Summary(zh_CN.UTF-8):   IMAP::Admin Perl 模块
+Summary(cs.UTF-8):	Modul IMAP::Admin pro Perl
+Summary(da.UTF-8):	Perlmodul IMAP::Admin
+Summary(de.UTF-8):	IMAP::Admin Perl Modul
+Summary(es.UTF-8):	Módulo de Perl IMAP::Admin
+Summary(fr.UTF-8):	Module Perl IMAP::Admin
+Summary(it.UTF-8):	Modulo di Perl IMAP::Admin
+Summary(ja.UTF-8):	IMAP::Admin Perl モジュール
+Summary(ko.UTF-8):	IMAP::Admin 펄 모줄
+Summary(nb.UTF-8):	Perlmodul IMAP::Admin
+Summary(pl.UTF-8):	Moduł Perla IMAP::Admin
+Summary(pt.UTF-8):	Módulo de Perl IMAP::Admin
+Summary(pt_BR.UTF-8):	Módulo Perl IMAP::Admin
+Summary(ru.UTF-8):	Модуль для Perl IMAP::Admin
+Summary(sv.UTF-8):	IMAP::Admin Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl IMAP::Admin
+Summary(zh_CN.UTF-8):	IMAP::Admin Perl 模块
 Name:		perl-IMAP-Admin
 Version:	1.6.1
 Release:	4
