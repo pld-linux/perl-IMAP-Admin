@@ -24,12 +24,12 @@ Summary(sv.UTF-8):	IMAP::Admin Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl IMAP::Admin
 Summary(zh_CN.UTF-8):	IMAP::Admin Perl 模块
 Name:		perl-IMAP-Admin
-Version:	1.6.1
-Release:	4
+Version:	1.6.4
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8215f41efca2d96b5e2902b8e413a751
+# Source0-md5:	87f32bb18f31a863b3e3813863f7723a
 Patch0:		%{name}-paths.patch
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
