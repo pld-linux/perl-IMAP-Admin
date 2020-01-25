@@ -3,7 +3,6 @@
 %bcond_with	tests	# perform "make test"
 			# require IMAP server access
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	IMAP
 %define		pnam	Admin
 Summary:	IMAP::Admin - Perl module for basic IMAP server administration
