@@ -9,7 +9,7 @@ Summary:	IMAP::Admin - Perl module for basic IMAP server administration
 Summary(pl.UTF-8):	IMAP::Admin - moduł Perla do podstawowej administracji serwerem IMAP
 Name:		perl-IMAP-Admin
 Version:	1.6.7
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/IMAP/%{pdir}-%{pnam}-%{version}.tar.gz
